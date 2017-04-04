@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ConverterApp
-    // This program was written by Gail Mosdell
+    // This program was written by Gail Mosdell - Modified and adapted by Sean Danzo :)
     // It forms the base of a converter program for the OS-Assessment Two for Cert IV
     // Date : February 2017
 {
     public partial class frm_Main : Form
     {
-        public frm_Main()
+        public frm_Main()//initialise the main form that is displayed to the user
         {
             InitializeComponent();
         }
@@ -25,12 +25,12 @@ namespace ConverterApp
 
         private void btn_Exit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Application.Exit(); // exit program when clicked ^
         }
 
         private void btn_CM_to_Inches_Click(object sender, EventArgs e)
         {
-            const double CM_TO_INCH = 0.3937;
+            const double CM_TO_INCH = 0.3937;//User enters a value that is multiplied by 0.4
            
             // validate user entry and convert to a double
 
