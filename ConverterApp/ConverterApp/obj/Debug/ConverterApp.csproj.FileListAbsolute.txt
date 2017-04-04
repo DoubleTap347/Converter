@@ -19,3 +19,9 @@ C:\Users\Gail\Desktop\Test Assess2\OS-Assessment2-master\ConverterApp\ConverterA
 C:\Users\j378234\Documents\Visual Studio 2015\Projects\ConverterApp\ConverterApp\ConverterApp\bin\Debug\ConverterApp.exe.config
 C:\Users\j378234\Documents\Visual Studio 2015\Projects\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.exe
 C:\Users\j378234\Documents\Visual Studio 2015\Projects\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.pdb
+C:\Users\j378234\Documents\Visual Studio 2015\Projects\ConverterApp\ConverterApp\ConverterApp\bin\Debug\ConverterApp.exe
+C:\Users\j378234\Documents\Visual Studio 2015\Projects\ConverterApp\ConverterApp\ConverterApp\bin\Debug\ConverterApp.pdb
+C:\Users\j378234\Documents\Visual Studio 2015\Projects\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.csprojResolveAssemblyReference.cache
+C:\Users\j378234\Documents\Visual Studio 2015\Projects\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.frm_Main.resources
+C:\Users\j378234\Documents\Visual Studio 2015\Projects\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.Properties.Resources.resources
+C:\Users\j378234\Documents\Visual Studio 2015\Projects\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.csproj.GenerateResource.Cache
