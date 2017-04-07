@@ -25,3 +25,12 @@ C:\Users\j378234\Documents\Visual Studio 2015\Projects\ConverterApp\ConverterApp
 C:\Users\j378234\Documents\Visual Studio 2015\Projects\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.frm_Main.resources
 C:\Users\j378234\Documents\Visual Studio 2015\Projects\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.Properties.Resources.resources
 C:\Users\j378234\Documents\Visual Studio 2015\Projects\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.csproj.GenerateResource.Cache
+C:\Users\J378234\Desktop\Converter-master\ConverterApp\ConverterApp\bin\Debug\ConverterApp.exe.config
+C:\Users\J378234\Desktop\Converter-master\ConverterApp\ConverterApp\obj\Debug\ConverterApp.exe
+C:\Users\J378234\Desktop\Converter-master\ConverterApp\ConverterApp\obj\Debug\ConverterApp.pdb
+C:\Users\J378234\Desktop\Converter-master\ConverterApp\ConverterApp\bin\Debug\ConverterApp.exe
+C:\Users\J378234\Desktop\Converter-master\ConverterApp\ConverterApp\bin\Debug\ConverterApp.pdb
+C:\Users\J378234\Desktop\Converter-master\ConverterApp\ConverterApp\obj\Debug\ConverterApp.csprojResolveAssemblyReference.cache
+C:\Users\J378234\Desktop\Converter-master\ConverterApp\ConverterApp\obj\Debug\ConverterApp.frm_Main.resources
+C:\Users\J378234\Desktop\Converter-master\ConverterApp\ConverterApp\obj\Debug\ConverterApp.Properties.Resources.resources
+C:\Users\J378234\Desktop\Converter-master\ConverterApp\ConverterApp\obj\Debug\ConverterApp.csproj.GenerateResource.Cache

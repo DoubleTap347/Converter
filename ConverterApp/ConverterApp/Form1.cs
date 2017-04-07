@@ -15,6 +15,7 @@ namespace ConverterApp
 {
     public partial class frm_Main : Form
     {
+        
         public frm_Main()//initialise the main form that is displayed to the user
         {
             InitializeComponent();
@@ -22,6 +23,8 @@ namespace ConverterApp
 
         // Global Variables and Constants
         double dbl_UofM, dbl_Convert;
+        double[] UserInput = new double[5];
+        
 
         private void btn_Exit_Click(object sender, EventArgs e)
         {
@@ -30,8 +33,10 @@ namespace ConverterApp
 
         private void btn_CM_to_Inches_Click(object sender, EventArgs e)
         {
-            const double CM_TO_INCH = 0.3937;//User enters a value that is multiplied by 0.4
-           
+            
+            const double CM_TO_INCH = 0.3937;
+            //User enters a value that is multiplied by 0.3937
+            UserInput[0] = dbl_Convert;
             // validate user entry and convert to a double
 
             if (! double.TryParse(txt_UnitOfMeasure.Text, out dbl_UofM))
@@ -54,8 +59,8 @@ namespace ConverterApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //const double CELCIUS_TO_FAH = 1.8 + 32;
-
+            const double CELCIUS_TO_FAH = 1.8 + 32;
+            UserInput[1] = dbl_Convert;
             // validate user entry and convert to a double
 
             if (!double.TryParse(txt_UnitOfMeasure.Text, out dbl_UofM))
@@ -69,7 +74,7 @@ namespace ConverterApp
             }
             else
             {
-                dbl_Convert = (dbl_UofM * 1.8) + 32;
+                dbl_Convert = (dbl_UofM * CELCIUS_TO_FAH); //Could have done that -->> //1.8) + 32;
                 txt_Convert.Text = dbl_Convert.ToString();
                 lbl_Display.Text = txt_UnitOfMeasure.Text + " celcius is converted to ";
                 lbl_Convert.Text = " Fahrenheit.";
@@ -79,7 +84,7 @@ namespace ConverterApp
         private void button2_Click(object sender, EventArgs e)
         {
             const double CM_TO_FEET = 0.0328084;
-
+            UserInput[2] = dbl_Convert;
             // validate user entry and convert to a double
 
             if (!double.TryParse(txt_UnitOfMeasure.Text, out dbl_UofM))
@@ -103,7 +108,7 @@ namespace ConverterApp
         private void button3_Click(object sender, EventArgs e)
         {
             const double KM_TO_MILES = 0.621371;
-
+            UserInput[4] = dbl_Convert;
             // validate user entry and convert to a double
 
             if (!double.TryParse(txt_UnitOfMeasure.Text, out dbl_UofM))
@@ -127,7 +132,7 @@ namespace ConverterApp
         private void btn_M_to_Feet_Click(object sender, EventArgs e)
         {
             const double M_TO_FEET = 3.28084;
-
+            UserInput[3] = dbl_Convert;
             // validate user entry and convert to a double
 
             if (!double.TryParse(txt_UnitOfMeasure.Text, out dbl_UofM))
