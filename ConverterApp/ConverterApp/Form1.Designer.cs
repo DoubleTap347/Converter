@@ -39,6 +39,9 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.btn_Submit = new System.Windows.Forms.Button();
+            this.txt_Result = new System.Windows.Forms.TextBox();
+            this.btn_Clear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_UofM
@@ -54,18 +57,17 @@
             // txt_UnitOfMeasure
             // 
             this.txt_UnitOfMeasure.Location = new System.Drawing.Point(106, 17);
-            this.txt_UnitOfMeasure.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_UnitOfMeasure.Margin = new System.Windows.Forms.Padding(2);
             this.txt_UnitOfMeasure.Name = "txt_UnitOfMeasure";
             this.txt_UnitOfMeasure.Size = new System.Drawing.Size(106, 20);
             this.txt_UnitOfMeasure.TabIndex = 1;
-            this.txt_UnitOfMeasure.Text = "Enter Value Here";
             // 
             // btn_CM_to_Inches
             // 
             this.btn_CM_to_Inches.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.btn_CM_to_Inches.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_CM_to_Inches.Location = new System.Drawing.Point(10, 52);
-            this.btn_CM_to_Inches.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_CM_to_Inches.Location = new System.Drawing.Point(12, 76);
+            this.btn_CM_to_Inches.Margin = new System.Windows.Forms.Padding(2);
             this.btn_CM_to_Inches.Name = "btn_CM_to_Inches";
             this.btn_CM_to_Inches.Size = new System.Drawing.Size(270, 37);
             this.btn_CM_to_Inches.TabIndex = 2;
@@ -77,8 +79,8 @@
             // 
             this.btn_M_to_Feet.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.btn_M_to_Feet.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btn_M_to_Feet.Location = new System.Drawing.Point(9, 174);
-            this.btn_M_to_Feet.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_M_to_Feet.Location = new System.Drawing.Point(11, 198);
+            this.btn_M_to_Feet.Margin = new System.Windows.Forms.Padding(2);
             this.btn_M_to_Feet.Name = "btn_M_to_Feet";
             this.btn_M_to_Feet.Size = new System.Drawing.Size(270, 34);
             this.btn_M_to_Feet.TabIndex = 3;
@@ -88,13 +90,13 @@
             // 
             // btn_Exit
             // 
-            this.btn_Exit.BackColor = System.Drawing.Color.Red;
+            this.btn_Exit.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btn_Exit.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.btn_Exit.ForeColor = System.Drawing.Color.SpringGreen;
-            this.btn_Exit.Location = new System.Drawing.Point(0, 312);
-            this.btn_Exit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Exit.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_Exit.Location = new System.Drawing.Point(0, 347);
+            this.btn_Exit.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Exit.Name = "btn_Exit";
-            this.btn_Exit.Size = new System.Drawing.Size(291, 19);
+            this.btn_Exit.Size = new System.Drawing.Size(482, 27);
             this.btn_Exit.TabIndex = 4;
             this.btn_Exit.Text = "EXIT";
             this.btn_Exit.UseVisualStyleBackColor = false;
@@ -103,7 +105,7 @@
             // lbl_Display
             // 
             this.lbl_Display.AutoSize = true;
-            this.lbl_Display.Location = new System.Drawing.Point(9, 276);
+            this.lbl_Display.Location = new System.Drawing.Point(23, 305);
             this.lbl_Display.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_Display.Name = "lbl_Display";
             this.lbl_Display.Size = new System.Drawing.Size(0, 13);
@@ -112,7 +114,7 @@
             // lbl_Convert
             // 
             this.lbl_Convert.AutoSize = true;
-            this.lbl_Convert.Location = new System.Drawing.Point(216, 279);
+            this.lbl_Convert.Location = new System.Drawing.Point(227, 305);
             this.lbl_Convert.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_Convert.Name = "lbl_Convert";
             this.lbl_Convert.Size = new System.Drawing.Size(0, 13);
@@ -120,8 +122,8 @@
             // 
             // txt_Convert
             // 
-            this.txt_Convert.Location = new System.Drawing.Point(158, 276);
-            this.txt_Convert.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_Convert.Location = new System.Drawing.Point(160, 302);
+            this.txt_Convert.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Convert.Name = "txt_Convert";
             this.txt_Convert.Size = new System.Drawing.Size(54, 20);
             this.txt_Convert.TabIndex = 7;
@@ -130,7 +132,7 @@
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Location = new System.Drawing.Point(10, 93);
+            this.button1.Location = new System.Drawing.Point(12, 117);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(270, 36);
@@ -143,7 +145,7 @@
             // 
             this.button2.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button2.Location = new System.Drawing.Point(10, 133);
+            this.button2.Location = new System.Drawing.Point(12, 157);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(270, 37);
@@ -156,7 +158,7 @@
             // 
             this.button3.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.button3.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button3.Location = new System.Drawing.Point(10, 212);
+            this.button3.Location = new System.Drawing.Point(11, 236);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(270, 36);
@@ -165,11 +167,42 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // btn_Submit
+            // 
+            this.btn_Submit.Location = new System.Drawing.Point(312, 20);
+            this.btn_Submit.Name = "btn_Submit";
+            this.btn_Submit.Size = new System.Drawing.Size(141, 40);
+            this.btn_Submit.TabIndex = 12;
+            this.btn_Submit.Text = "Submit to List";
+            this.btn_Submit.UseVisualStyleBackColor = true;
+            this.btn_Submit.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // txt_Result
+            // 
+            this.txt_Result.Location = new System.Drawing.Point(312, 66);
+            this.txt_Result.Multiline = true;
+            this.txt_Result.Name = "txt_Result";
+            this.txt_Result.Size = new System.Drawing.Size(141, 244);
+            this.txt_Result.TabIndex = 13;
+            // 
+            // btn_Clear
+            // 
+            this.btn_Clear.Location = new System.Drawing.Point(378, 316);
+            this.btn_Clear.Name = "btn_Clear";
+            this.btn_Clear.Size = new System.Drawing.Size(75, 23);
+            this.btn_Clear.TabIndex = 14;
+            this.btn_Clear.Text = "Clear";
+            this.btn_Clear.UseVisualStyleBackColor = true;
+            this.btn_Clear.Click += new System.EventHandler(this.button4_Click_1);
+            // 
             // frm_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(291, 331);
+            this.ClientSize = new System.Drawing.Size(482, 374);
+            this.Controls.Add(this.btn_Clear);
+            this.Controls.Add(this.txt_Result);
+            this.Controls.Add(this.btn_Submit);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -181,9 +214,9 @@
             this.Controls.Add(this.btn_CM_to_Inches);
             this.Controls.Add(this.txt_UnitOfMeasure);
             this.Controls.Add(this.lbl_UofM);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frm_Main";
-            this.Text = "ATCA Gas Converter";
+            this.Text = "     ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -202,6 +235,9 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_Submit;
+        private System.Windows.Forms.TextBox txt_Result;
+        private System.Windows.Forms.Button btn_Clear;
     }
 }
 
